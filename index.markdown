@@ -5,4 +5,4 @@
 layout: home
 ---
 
-I'm Elliott Liu, a junior at Torrey Pines High School in San Diego, CA.
+I'm Elliott Liu, a junior at Torrey Pines High School in San Diego, CA. There's nothing on this website right now, but maybe there will be something later? Check back soon!
