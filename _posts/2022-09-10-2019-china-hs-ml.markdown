@@ -32,7 +32,10 @@ The first eight problems are each worth 8 points.
 
 7. As shown in the figure, a cross section of the cube $$ABCDEFGH$$ passes through the vertices $$A$$, $$C$$, and a point $$K$$ on $$EF$$, and the cube is divided into two parts with volume ratio $$3:1$$. Find the value of $$\frac{EK}{KF}$$. 
     
-	![cube diagram](/website/assets/china-cube.png)
+    <p align="center">
+		<img src="/website/assets/china-cube.png" style="width:300px;"/>
+    </p>
+	[comment]: <> ![cube diagram](/website/assets/china-cube.png)
 
 8. Arrange the $$6$$ numbers $$2$$, $$0$$, $$1$$, $$9$$, $$20$$, and $$19$$ into a line in any order to form an $$8$$-digit number. How many different $$8$$ digit numbers can be created? (The first digit is not $$0$$.)
 
