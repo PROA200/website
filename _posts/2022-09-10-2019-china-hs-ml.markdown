@@ -18,7 +18,7 @@ The first eight problems are each worth 8 points.
 
 2. If the difference between the largest element and the smallest element of the set of real numbers $$\{1,2,3,x\}$$ is equal to the sum of all elements of the set, then find the value of $$x$$.
 
-3. In the Cartesian coordinate system, $$\vec{e}$$ is the unit vector. If the vector $$\vec a$$ satisfies the two conditions $$\vec a\cdot \vec e=2$$ and 
+3. In the Cartesian coordinate system, $$\vec{e}$$ is a unit vector. If the vector $$\vec a$$ satisfies the two conditions $$\vec a\cdot \vec e=2$$ and 
 
     $$\begin{aligned}\left\vert \vec a\right\vert ^2 \leq 5\left\vert \vec a + t\vec e\right\vert \end{aligned}$$
 
