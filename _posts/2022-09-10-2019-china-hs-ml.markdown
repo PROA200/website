@@ -20,7 +20,9 @@ The first eight problems are each worth 8 points.
 4. Let $$A$$, $$B$$ be be the endpoints of the major axis of ellipse $$\Gamma$$, and let $$E$$, $$F$$ be the two foci. Given that $$\vert AB\vert =4$$, $$\vert AF\vert =2+\sqrt 3$$, and a point $$P$$ on $$\Gamma$$ satisfies $$\vert PE\vert \cdot \vert PF\vert =2$$, then find the area of $$\triangle PEF$$. 
 5. Randomly select a number $$a$$ from $$1, 2, 3,\ldots,10$$, and randomly select a real number $$b$$ from $$$-1,-2,-3,\ldots,-10$$. Find the probability that $$a^2+b$$ is divisible by $$3$$.
 6. For any closed interval $$I$$, use $$M_I$$ to denote the maximum value of $$y=\sin x$$ on $$I$$. Given that the positive real number $$a$$ satisfies $$M_{\{0,a\}}=2M_{\{a,2a\}}$$, find the value of $$a$$.
-7. As shown in the figure, a cross section of the cube $$ABCDEFGH$$ passes through the vertices $$A$$, $$C$$, and a point $$K$$ on $$EF$$, and the cube is divided into two parts with volume ratio $$3:1$$. Find the value of $$\frac{EK}{KF}$$.
+7. As shown in the figure, a cross section of the cube $$ABCDEFGH$$ passes through the vertices $$A$$, $$C$$, and a point $$K$$ on $$EF$$, and the cube is divided into two parts with volume ratio $$3:1$$. Find the value of $$\frac{EK}{KF}$$. 
+    
+	![cube diagram](/website/assets/china-cube.png)
 8. Arrange the $$6$$ numbers $$2$$, $$0$$, $$1$$, $$9$$, $$20$$, and $$19$$ into a line in any order to form an $$8$$-digit number. How many different $$8$$ digit numbers can be created? (The first digit is not $$0$$.)
 9. *(16 points)* In $$\triangle ABC$$, $$BC=a$$, $$CA=b$$, and $$AB=c$$. Given $$b$$ is the average of $$a$$ and $$c$$ and $$\sin A$$ is the average of $$\sin(B-A)$$ and $$\sin C$$, find the value of $$\cos B$$. 
 10. *(20 points)* In the Cartesian coordinate system, the circle $$\Omega$$ and the parabola $$\Gamma : y^2=4x$$ have exactly one common point, and $$\Omega$$ is tangent to the $$x$$-axis at the $$F$$, the focus of $$\Gamma$$. Find the radius of $$\Omega$$. 
