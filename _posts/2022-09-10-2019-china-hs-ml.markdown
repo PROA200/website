@@ -11,7 +11,7 @@ usemathjax: true
 
 I've noticed that these aren't available on the AoPS contest collections (to my knowledge) and are only available on Chinese websites in Chinese, so I've copied them down in English here.
 
-The first eight problems are each worth 8 points.
+The first eight problems are each worth 8 points. The last three in each set require justification.
 
 ## 2019 Problems (Version A)
 1. If it is known that the postiive real number $$a$$ satisfies $$a^a=(9a)^{8a}$$, find $$\log_a(3a)$$. 
