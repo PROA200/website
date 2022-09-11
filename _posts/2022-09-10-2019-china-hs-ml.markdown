@@ -6,7 +6,7 @@ categories:
 usemathjax: true
 ---
 
-# Translated Problems from China High School Math League, First Round
+### Translated Problems from China High School Math League, First Round
 *With major assistance from Google Translate.*
 
 I've noticed that these aren't available on the AoPS contest collections (to my knowledge) and are only available on Chinese websites in Chinese, so I've copied them down in English here.
