@@ -39,7 +39,7 @@ The first eight problems are each worth 8 points. The last three in each set req
 
 8. Arrange the $$6$$ numbers $$2$$, $$0$$, $$1$$, $$9$$, $$20$$, and $$19$$ into a line in any order to form an $$8$$-digit number. How many different $$8$$ digit numbers can be created? (The first digit is not $$0$$.)
 
-9. *(16 points)* In $$\triangle ABC$$, $$BC=a$$, $$CA=b$$, and $$AB=c$$. Given $$b$$ is the average of $$a$$ and $$c$$ and $$\sin A$$ is the average of $$\sin(B-A)$$ and $$\sin C$$, find the value of $$\cos B$$. 
+9. *(16 points)* In $$\triangle ABC$$, $$BC=a$$, $$CA=b$$, and $$AB=c$$. Given $$b$$ is the geometric mean of $$a$$ and $$c$$ and $$\sin A$$ is the arithmetic mean of $$\sin(B-A)$$ and $$\sin C$$, find the value of $$\cos B$$. 
 
 10. *(20 points)* In the Cartesian coordinate system, the circle $$\Omega$$ and the parabola $$\Gamma : y^2=4x$$ have exactly one common point, and $$\Omega$$ is tangent to the $$x$$-axis at the $$F$$, the focus of $$\Gamma$$. Find the radius of $$\Omega$$. 
 
