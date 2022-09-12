@@ -78,6 +78,6 @@ The first eight problems are each worth 8 points. The last three in each set req
     
 	*Note. Here, $$\lg$$ [denotes the base-10 logarithm.](https://en.wiktionary.org/wiki/lg)*
 
-11. *(20 points)* Let the sequence of complex numbers $$\{z_n\}$$ satisfy $$\vert z_1\vert =n$$, and, for any positive $$n$$, $$4z_{n+1}^2 + 2z_nz_{n+1}+z_n^2 = 0.$$$ Prove that, for any positive integer $$m$$, we have 
+11. *(20 points)* Let the sequence of complex numbers $$\{z_n\}$$ satisfy $$\vert z_1\vert =n$$, and, for any positive $$n$$, $$4z_{n+1}^2 + 2z_nz_{n+1}+z_n^2 = 0.$$ Prove that, for any positive integer $$m$$, we have 
 
     $$\vert z_1+z_2+\cdots + z_m\vert <\frac{2\sqrt 3}{3}.$$
