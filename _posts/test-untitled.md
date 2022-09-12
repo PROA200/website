@@ -56,7 +56,7 @@ The first eight problems are each worth 8 points. The last three in each set req
 2. If the vector $$\vec a=(2^m,-1)$$ is perpendicular to the $$\vec b=(2^m-1, 2^{m+1})$$ where $$m$$ is a real number, then find $$\vert \vec a\vert $$. 
 
 3. Let $$\alpha, \beta \in (0,\pi)$$ such that $$\cos \alpha, \cos \beta$$ are the two roots of the equation $$5x^2-3x-1$$. Find the value of $$\sin\alpha\sin\beta$$. 
-
+  
 4. Suppose the triangular pyramid $$PABC$$ satisfies $$PA=PB=3$$, $$AB=BC=CA=2$$. Find the maximum value of the volume of the triangular pyramid.
 
 5. Arrange the $$5$$ numbers $$2, 0, 1, 9, 2019$$ in a row in any order to form an $$8$$-digit number. Given that the first digit is not $$0$$, find the number of different $$8$$-digit numbers that could be created.
