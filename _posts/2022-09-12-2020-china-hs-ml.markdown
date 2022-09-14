@@ -9,7 +9,7 @@ usemathjax: true
 ### Translated Problems from China High School Math League, First Round
 *With major assistance from Google Translate.*
 
-The first eight problems are each worth 8 points. The last three in each set require justification.
+Time limit: **80 minutes**. The first eight problems are each worth 8 points. The last three in each set require justification.
 
 ## 2020 Problems (Version A)
 
