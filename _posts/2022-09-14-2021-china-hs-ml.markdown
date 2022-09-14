@@ -1,0 +1,83 @@
+---
+layout: post
+title:  "2021 China High School Math League Problems"
+date:   2022-09-14 12:25:00 -0700
+categories:
+usemathjax: true
+---
+
+## 2021 China High School Math League Problems
+
+The first eight problems are worth $$8$$ points each. The last three in each set require justification.
+
+## Test A
+
+1. Arithmetic sequence $$\{a_n\}$$ satsifies $$a_{2021}=a_{20}+a_{21}=1$$. Find $$a_1$$.
+
+2. Let $$A$$ be the set $$\{1,2,m\}$$, where $$m$$ is a real number. Let $$B=\{a^2\mid a\in A\}$$, and let $$C=A\cup B$$. If the sum of all of the elements of $$C$$ is $$6$$, then find the product of all of the elements of $$C$$.
+
+3. Let the function $$f(x)$$ have the property that, for any nonzero real number $$x$$, 
+
+$$f(x)=f(1)\cdot x + \frac{f(2)}{x}-1.$$
+
+Find the smallest value of $$f(x)$$ on the interval $$(0,\infty)$$.
+
+4. Let $$f(x)=\cos x + \log_2 x$$ for $$x>0$$. If the positive real number $$a$$ satisfies $$f(a)=f(2a)$$, then what is the value of $$f(2a)-f(4a)$$?
+
+5. In $$\triangle ABC$$, $$AB=1$$, $$AC=2$$, and $$B-C=\frac{2\pi}{3}$$. Find the area of $$\triangle ABC$$. 
+
+6. In the $$xy$$ plane, let $$O$$ be the origin. Parabola $$\Gamma\colon y^2=2px$$, where $$p>0$$, has focus $$F$$. A point $$P\neq O$$ pies on $$\Gamma$$, and the tangent to $$\Gamma$$ at $$P$$ intersects the $$y$$-axis at point $$Q$$. Given that $$FP=2$$ and $$FQ=1$$, find $$\overrightarrow{OP}\cdot \overrightarrow{OQ}$$.
+
+7. A standard fair dice has sides labeled $$1, 2, \ldots, 6$$. If the dice is thrown three times to obtain the numbers $$a_1$$, $$a_2$$, $$a_3$$, find the probability that 
+
+$$\vert a_1-a_2\vert +\vert a_2-a_3\vert +\vert a_3-a_1\vert =6.$$
+
+8. Find the number of rational numbers $$r=\frac pq\in (0,1)$$ with the property that $$p,q$$ are relatively prime positive integers with $$pq$$ dividing $$3600$$.
+
+9. *(16 points)* Let the sequence of complex numbers $$\{z_n\}$$ satisfy 
+
+$$z_1=\frac{\sqrt3}{2}, z_{n+1}=\overline{z_n}(1+z_ni)$$
+
+for all $$n=1,2,\cdots$$, where $$i$$ is the imaginary unit. Find the value of $$z_{2021}$$.
+
+10. *(20 points)* In the Cartesian plane, there are three different points on graph of $$y=\frac{x+1}{\vert x\vert +1}$$ lying on the line $$\ell$$. Given that the sum of the $$x$$-coordinates of the points is $$0$$, find the range of possible values of the slope of $$\ell$$.
+
+11. *(20 points)* As shown in the figure, the cube $$ABCDEFGH$$ has side length $$2$$. Let $$P_1, P_2, P_3$$ be any points on the inscribed circles of squares $$ABFE, BCGF, EFGH$$ respectively. Find the minimum and maximum values of the quantity 
+
+$$\vert P_1P_2\vert +\vert P_2P_3\vert +\vert P_3P_1\vert .$$
+
+<p align="center">
+		<img src="/website/assets/21-ellipse.png" style="width:300px;"/>
+    </p>
+
+## Test B
+
+1. It is known that $$f(x)$$ is an odd function defined on $$\mathbb R$$. Given that $$f(1)=2$$ and $$f(2)=3$$, find $$f(f(-1))$$.
+
+2. The imaginary number $$z=1+i+\frac{m}{1+i}$$, where $$m$$ is a real number, has both real and imaginary parts greater than $$0$$. Find the range of possible values for $$m$$.
+
+3. Define the sets $$A=\{1,2,3\}$$, $$X=\{4x+y\mid x,y\in A\}$$, $$Y=\{4x-y\mid x,y\in A\}$$. Find the sum of the elements of $$X\cap Y$$.
+
+4. In the $$xy$$ plane, let the origin be $$O$$. The parabola $$y^2=2px$$ intersects a line with argument $$\frac \pi 4$$ at two points $$P(3,2)$$ and $$Q$$. Find the area of $$\triangle OPQ$$.
+
+5. The sequence $$\{a_n\}$$ satisfies $$a_1=2$$ and $$a_{n+1}=(n+1)a_n-n$$. Determine the general formula for $$a_n$$.
+
+6. In the pyramid $$P-ABCD$$, $$G$$ is the centroid of $$\triangle PBC$$. Find the value of $$\frac{V_{GPBC}}{V_{GPAB}}$$. 
+
+7. Given that $$\alpha, \beta \geq 0$$, $$\alpha + \beta \leq 2\pi$$, find the smallest possible value of $$\sin \alpha + 2\cos \beta$$.
+
+8. Find the number of permutations $$a_1, a_2,\cdots, a_{21}$$ of $$1,2,\cdots, 21$$ satisfying 
+
+$$\vert a_{20}-a_{21}\vert \geq \vert a_{19}-a_{21}\vert \geq \cdots \geq \vert a_1-a_{21}\vert .$$
+
+9. *(16 points)* Let $$\vec a$$, $$\vec b$$ be vectors in the plane such that the angle between them is $$\frac\pi3$$. Given that $$\vert \vec a\vert ,\vert \vec b\vert $$, and $$\vert \vec a + \vec b\vert $$ form an arithmetic sequence, find 
+
+$$\vert \vec a\vert :\vert \vec b\vert :\vert \vec a + \vec b\vert .$$
+
+10. *(20 points)* Let $$f(x)=\vert 2-\log_3x\vert $$. The positive real numbers $$a,b,c$$ satisfy $$a<b<c$$ and $$f(a)=2f(b)=2f(c)$$. Find $$\frac{ac}{b}$$.
+
+11. *(20 points)* As shown in the figure, in the Cartesian coordinate system, the left and right foci of the ellipse $$\Gamma\colon \frac{x^2}{2}+y^2=1$$ are $$F_1$$ and $$F_2$$, respectively. Let $$P$$ be a point on $$\Gamma$$ lying in the first quadrant, and suppose $$PF_1$$ and $$PF_2$$ intersect $$\Gamma$$ again at $$Q_1(x_1,y_1)$$ and $$Q_2(x_2,y_2)$$. Find the largest possible value of $$y_1-y_2$$. 
+
+<p align="center">
+		<img src="/website/assets/cube-circles.png" style="width:300px;"/>
+    </p>

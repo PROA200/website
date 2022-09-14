@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2020 China High School Math League Problems.md",
+            "file": "2021 China HSML Problems.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2730348f1552bf17",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2020 China High School Math League Problems.md",
+                "file": "2021 China HSML Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2020 China High School Math League Problems.md",
+                "file": "2021 China HSML Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2020 China High School Math League Problems.md"
+                "file": "2021 China HSML Problems.md"
               }
             }
           }
@@ -132,6 +131,9 @@
   "active": "bf30b1b7bf6f99d6",
   "lastOpenFiles": [
     "2020 China High School Math League Problems.md",
-    "website/assets/china-cube.png.md"
+    "Pasted image 20220912075215.png",
+    "website/assets/china-cube.png.md",
+    "test-untitled.md",
+    "2021 China HSML Problems.md"
   ]
 }
