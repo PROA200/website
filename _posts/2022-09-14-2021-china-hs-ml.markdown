@@ -20,9 +20,9 @@ Time limit: **80 minutes**. The first eight problems are worth $$8$$ points each
 
 3. Let the function $$f(x)$$ have the property that, for any nonzero real number $$x$$, 
 
-$$f(x)=f(1)\cdot x + \frac{f(2)}{x}-1.$$
+	$$f(x)=f(1)\cdot x + \frac{f(2)}{x}-1.$$
 
-Find the smallest value of $$f(x)$$ on the interval $$(0,\infty)$$.
+	Find the smallest value of $$f(x)$$ on the interval $$(0,\infty)$$.
 
 4. Let $$f(x)=\cos x + \log_2 x$$ for $$x>0$$. If the positive real number $$a$$ satisfies $$f(a)=f(2a)$$, then what is the value of $$f(2a)-f(4a)$$?
 
@@ -32,23 +32,23 @@ Find the smallest value of $$f(x)$$ on the interval $$(0,\infty)$$.
 
 7. A standard fair dice has sides labeled $$1, 2, \ldots, 6$$. If the dice is thrown three times to obtain the numbers $$a_1$$, $$a_2$$, $$a_3$$, find the probability that 
 
-$$\vert a_1-a_2\vert +\vert a_2-a_3\vert +\vert a_3-a_1\vert =6.$$
+	$$\vert a_1-a_2\vert +\vert a_2-a_3\vert +\vert a_3-a_1\vert =6.$$
 
 8. Find the number of rational numbers $$r=\frac pq\in (0,1)$$ with the property that $$p,q$$ are relatively prime positive integers with $$pq$$ dividing $$3600$$.
 
 9. *(16 points)* Let the sequence of complex numbers $$\{z_n\}$$ satisfy 
 
-$$z_1=\frac{\sqrt3}{2}, z_{n+1}=\overline{z_n}(1+z_ni)$$
+	$$z_1=\frac{\sqrt3}{2}, z_{n+1}=\overline{z_n}(1+z_ni)$$
 
-for all $$n=1,2,\cdots$$, where $$i$$ is the imaginary unit. Find the value of $$z_{2021}$$.
+	for all $$n=1,2,\cdots$$, where $$i$$ is the imaginary unit. Find the value of $$z_{2021}$$.
 
 10. *(20 points)* In the Cartesian plane, there are three different points on graph of $$y=\frac{x+1}{\vert x\vert +1}$$ lying on the line $$\ell$$. Given that the sum of the $$x$$-coordinates of the points is $$0$$, find the range of possible values of the slope of $$\ell$$.
 
 11. *(20 points)* As shown in the figure, the cube $$ABCDEFGH$$ has side length $$2$$. Let $$P_1, P_2, P_3$$ be any points on the inscribed circles of squares $$ABFE, BCGF, EFGH$$ respectively. Find the minimum and maximum values of the quantity 
 
-$$\vert P_1P_2\vert +\vert P_2P_3\vert +\vert P_3P_1\vert .$$
+	$$\vert P_1P_2\vert +\vert P_2P_3\vert +\vert P_3P_1\vert .$$
 
-<p align="center">
+	<p align="center">
 		<img src="/website/assets/21-ellipse.png" style="width:300px;"/>
     </p>
 
@@ -70,16 +70,16 @@ $$\vert P_1P_2\vert +\vert P_2P_3\vert +\vert P_3P_1\vert .$$
 
 8. Find the number of permutations $$a_1, a_2,\cdots, a_{21}$$ of $$1,2,\cdots, 21$$ satisfying 
 
-$$\vert a_{20}-a_{21}\vert \geq \vert a_{19}-a_{21}\vert \geq \cdots \geq \vert a_1-a_{21}\vert .$$
+	$$\vert a_{20}-a_{21}\vert \geq \vert a_{19}-a_{21}\vert \geq \cdots \geq \vert a_1-a_{21}\vert .$$
 
 9. *(16 points)* Let $$\vec a$$, $$\vec b$$ be vectors in the plane such that the angle between them is $$\frac\pi3$$. Given that $$\vert \vec a\vert ,\vert \vec b\vert $$, and $$\vert \vec a + \vec b\vert $$ form an arithmetic sequence, find 
 
-$$\vert \vec a\vert :\vert \vec b\vert :\vert \vec a + \vec b\vert .$$
+	$$\vert \vec a\vert :\vert \vec b\vert :\vert \vec a + \vec b\vert .$$
 
 10. *(20 points)* Let $$f(x)=\vert 2-\log_3x\vert $$. The positive real numbers $$a,b,c$$ satisfy $$a<b<c$$ and $$f(a)=2f(b)=2f(c)$$. Find $$\frac{ac}{b}$$.
 
 11. *(20 points)* As shown in the figure, in the Cartesian coordinate system, the left and right foci of the ellipse $$\Gamma\colon \frac{x^2}{2}+y^2=1$$ are $$F_1$$ and $$F_2$$, respectively. Let $$P$$ be a point on $$\Gamma$$ lying in the first quadrant, and suppose $$PF_1$$ and $$PF_2$$ intersect $$\Gamma$$ again at $$Q_1(x_1,y_1)$$ and $$Q_2(x_2,y_2)$$. Find the largest possible value of $$y_1-y_2$$. 
 
-<p align="center">
+	<p align="center">
 		<img src="/website/assets/cube-circles.png" style="width:300px;"/>
     </p>
