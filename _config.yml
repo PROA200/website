@@ -28,13 +28,13 @@ twitter_username:
 github_username:  PROA200
 
 # Build settings
-#theme: minima
-remote-theme: jekyll/minima
+theme: minima
+#remote-theme: jekyll/minima
 markdown: kramdown
 google-analytics: G-47HS4D0912
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+#  - jekyll-remote-theme
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
