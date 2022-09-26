@@ -20,6 +20,7 @@ A collection of relatively niche writings that I've stumbled upon over the past 
 #### Books
 
 - *The Spy and the Traitor* by Ben Macintyre is amazingly well-written. 
+- I guess I kind of liked *The Great Gatsby* by F. Scott Fitzgerald. This was a required reading for school, sue me.
 
 ### Poetry
 
