@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+usemathjax: true
 ---
 
 ## Some Favorites
@@ -22,6 +23,7 @@ A collection of relatively niche writings that I've stumbled upon over the past 
 
 - *The Spy and the Traitor* by Ben Macintyre is amazingly well-written.
 - *The Dream Machine* by M. Mitchell Waldrop, a story of the personal computer (and a biography).
+- *The Glass Cage* by Nicholas Carr, a critique of automation and the way it changes being human.
 - I guess I kind of liked *The Great Gatsby* by F. Scott Fitzgerald. This was a required reading for school, sue me.
 - *Projective Geometry* by T. Ewan Faulkner gives a rather unique perspective on projective geometry. It might be good bedtime reading, who knows. (It's definitely *not* an introduction to projective geometry.) 
 
@@ -36,3 +38,6 @@ I'll admit it - I don't read a lot of poetry. I'll try to read more, I promise.
 - I found ["I Saw in Louisiana A Live-Oak Growing"](https://www.poetryfoundation.org/poems/45471/i-saw-in-louisiana-a-live-oak-growing) by Walt Whitman pretty thought-provoking to read.
 
 [jekyll-organization]: https://github.com/jekyll
+
+### Problems I've written
+(2021 CIME II Problem 9) Let $$N$$ be the number of permutations $$(a_1,b_1,a_2,b_2,\ldots,a_6,b_6)$$ of $$(1,2,\ldots,12)$$ with the following property: it is possible to choose one number among $$a_i$$ and $$b_i$$ for each $$1\le i\le6$$ such that the six chosen numbers form an increasing sequence and the six remaining numbers form a decreasing sequence. For example, $$(1,11,10,3,7,6,5,8,9,4,12,2)$$ is one such permutation since we can choose $$(1,3,6,8,9,12)$$ and leave $$(11,10,7,5,4,2)$$. Find the remainder when $$N$$ is divided by $$1000$$.
