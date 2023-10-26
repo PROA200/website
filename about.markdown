@@ -16,7 +16,7 @@ A collection of relatively niche writings that I've stumbled upon over the past 
 - There's a lot of good writing on [CJ Quines' blog](https://mitadmissions.org/blogs/author/cjq/). If you're looking for something thoughtful, you might find ["The Long View"](https://mitadmissions.org/blogs/entry/the-long-view/) and ["You Can't Be Everything to Everyone"](https://mitadmissions.org/blogs/entry/you-cant-be-everything-to-everyone/) interesting.
 - Something similar in style is ["Novelty"](https://mitadmissions.org/blogs/entry/novelty/) from Vincent Huang's blog on the same website.
 - The essay ["How to Do What You Love"](http://www.paulgraham.com/love.html) by Paul Graham.
-- You should definitely read ["A Mathematician's Lament."](https://www.maa.org/external_archive/devlin/LockhartsLament.pdf) (Okay, I said that these weren't recommendations, but... you should read this.)
+- You should definitely read ["A Mathematician's Lament."](https://ia800406.us.archive.org/19/items/AMathematiciansLament/A_Mathematicians_Lament.pdf) (Okay, I said that these weren't recommendations, but... you should read this.)
 - ["Making energy too cheap to meter"](https://worksinprogress.co/issue/making-energy-too-cheap-to-meter) from Works In Progress, an argument for producing, well, more energy.
 
 #### Books
