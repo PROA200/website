@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chessboard Problem</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .chessboard-container {
+            display: inline-block;
+            position: relative;
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            user-select: none; /* Prevent text selection */
+        }
+
+        .square {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+            box-sizing: border-box;
+        }
+
+        .square.black {
+            background-color: #000;
+        }
+
+        .square.selected {
+            border: 2px solid red;
+        }
+
+        button {
+            margin-top: 20px;
+        }
+		
+		* {
+		-webkit-touch-callout:none;
+		-webkit-user-select:none;
+		-moz-user-select:none;
+		-ms-user-select:none;
+		user-select:none;
+		}
+		.container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 70px 150px; /* Add padding */
+		}
+		.chessboard-container {
+			display: inline-block;
+			position: relative;
+			width: 300px;
+			height: 300px;
+			border: 1px solid black;
+			user-select: none;
+			margin: 50px 0 30px 0; /* Add vertical margin */
+		}
+		.button {
+		  background-color: #12628c; /* Green */
+		  border: none;
+		  color: white;
+		  padding: 12px 20px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 16px;
+		}
+		.button:hover {
+			filter: brightness(125%);
+		}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="problem-statement">
+            A computer screen shows a \(98 \times 98\) chessboard, colored in the usual way. One can select with a mouse any rectangle with sides on the lines of the chessboard and click the mouse button: as a result, the colors in the selected rectangle switch (black becomes white, white becomes black). Find, with proof, the minimum number of mouse clicks needed to make the chessboard all one color.
+        </div>
+		
+        <div class="chessboard-container" id="chessboard"></div>
+        <button class="button" id="reset-button">Reset</button>
+    </div>
+
+    <script>
+        const chessboard = document.getElementById('chessboard');
+        const resetButton = document.getElementById('reset-button');
+		const body = document;
+        const squares = [];
+
+        // Initialize the chessboard
+        for (let i = 0; i < 36; i++) {
+            const square = document.createElement('div');
+            square.classList.add('square');
+            if ((i + Math.floor(i / 6)) % 2 === 1) {
+                square.classList.add('black');
+            }
+            square.style.left = `${(i % 6) * 50}px`;
+            square.style.top = `${Math.floor(i / 6) * 50}px`;
+            chessboard.appendChild(square);
+            squares.push(square);
+        }
+
+        let startSquare = null;
+        let endSquare = null;
+        let animationFrameId = null;
+
+        // Handle mouse down event
+        chessboard.addEventListener('mousedown', (e) => {
+            if (e.target.classList.contains('square')) {
+                clearSelection();
+                startSquare = e.target;
+                startSquare.classList.add('selected');
+                endSquare = startSquare; // Set endSquare to startSquare initially
+                animateSelection();
+            }
+        });
+
+        // Handle mouse move event
+        chessboard.addEventListener('mousemove', (e) => {
+            if (startSquare) {
+                const chessboardRect = chessboard.getBoundingClientRect();
+                const col = Math.floor((e.clientX - chessboardRect.left) / 50);
+                const row = Math.floor((e.clientY - chessboardRect.top) / 50);
+                const targetIndex = row * 6 + col;
+                if (targetIndex >= 0 && targetIndex < squares.length) {
+                    endSquare = squares[targetIndex];
+                }
+            }
+        });
+
+        // Handle mouse up event
+        body.addEventListener('mouseup', (e) => {
+			console.log("mouseup");
+            const chessboardRect = chessboard.getBoundingClientRect();
+            const isOutsideChessboard =
+                e.clientX < chessboardRect.left - 50||
+                e.clientX > chessboardRect.right + 50||
+                e.clientY < chessboardRect.top - 50||
+                e.clientY > chessboardRect.bottom + 50;
+
+			if (startSquare && endSquare && ! isOutsideChessboard) {
+                flipRectangle(startSquare, endSquare);
+                clearSelection();
+				console.log("cleared selection after flip");
+				startSquare = null;
+				endSquare = null;
+				cancelAnimationFrame(animationFrameId);
+            }
+			else {
+                clearSelection();
+				console.log("cleared selection when outside");
+				startSquare = null;
+				endSquare = null;
+				cancelAnimationFrame(animationFrameId);
+            }
+			}
+			);
+
+        // Clear selection
+        function clearSelection() {
+            squares.forEach(square => {
+                square.classList.remove('selected');
+                square.style.border = '';
+            });
+        }
+
+        // Select rectangle
+        function selectRectangle(start, end) {
+            clearSelection();
+            const startIndex = squares.indexOf(start);
+            const endIndex = squares.indexOf(end);
+            const startRow = Math.floor(startIndex / 6);
+            const endRow = Math.floor(endIndex / 6);
+            const startCol = startIndex % 6;
+            const endCol = endIndex % 6;
+            const minRow = Math.min(startRow, endRow);
+            const maxRow = Math.max(startRow, endRow);
+            const minCol = Math.min(startCol, endCol);
+            const maxCol = Math.max(startCol, endCol);
+
+            for (let row = minRow; row <= maxRow; row++) {
+                for (let col = minCol; col <= maxCol; col++) {
+                    const index = row * 6 + col;
+                    squares[index].classList.add('selected');
+                }
+            }
+        }
+
+        // Animate selection
+        function animateSelection() {
+            if (startSquare && endSquare) {
+                selectRectangle(startSquare, endSquare);
+            }
+            animationFrameId = requestAnimationFrame(animateSelection);
+        }
+
+        // Flip rectangle
+        function flipRectangle(start, end) {
+			console.log("flipped rectangle");
+            const startIndex = squares.indexOf(start);
+            const endIndex = squares.indexOf(end);
+            const startRow = Math.floor(startIndex / 6);
+            const endRow = Math.floor(endIndex / 6);
+            const startCol = startIndex % 6;
+            const endCol = endIndex % 6;
+            const minRow = Math.min(startRow, endRow);
+            const maxRow = Math.max(startRow, endRow);
+            const minCol = Math.min(startCol, endCol);
+            const maxCol = Math.max(startCol, endCol);
+
+            for (let row = minRow; row <= maxRow; row++) {
+                for (let col = minCol; col <= maxCol; col++) {
+                    const index = row * 6 + col;
+                    squares[index].classList.toggle('black');
+                }
+            }
+        }
+
+        // Reset chessboard
+        resetButton.addEventListener('click', () => {
+            squares.forEach((square, index) => {
+                square.classList.remove('black');
+                if ((index + Math.floor(index / 6)) % 2 === 1) {
+                    square.classList.add('black');
+                }
+            });
+        });
+
+        // Render MathJax
+        MathJax.texReset();
+        const problemStatement = document.getElementById('problem-statement');
+        MathJax.startup.document = problemStatement;
+        MathJax.typesetPromise();
+    </script>
+</body>
+</html>
