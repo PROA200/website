@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Play against our Pokerbot!"
-date:   2025-08-30
+date:   2025-08-30 12:00:00 -0400
 categories:
 usemathjax: true
 ---
