@@ -5,7 +5,7 @@ permalink: /about/
 usemathjax: true
 ---
 
-## Some Favorites
+## Some Favorites (2022)
 
 A collection of relatively niche writings that I've stumbled upon over the past year or so. These aren't really "recommendations"; it's more of a collection of things that I happened enjoy reading in the moment. (But I thought you might enjoy them anyway.)
 

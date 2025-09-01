@@ -5,6 +5,6 @@
 layout: home
 ---
 
-I'm Elliott Liu, a senior (!) at Torrey Pines High School in San Diego, CA. This website is very much under construction; there's not much here right now. Check back soon!
+I'm Elliott Liu, a sophomore at MIT studying mathematics and computer science. I'm particularly interested in machine learning & am currently working on representation learning in vision.
 
-[Test Document](\website\assets\test-pdf.pdf)
+This website is very much under construction; there's not much here right now. Check back soon!
