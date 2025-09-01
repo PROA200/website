@@ -6,4 +6,4 @@ categories:
 usemathjax: true
 ---
 
-Play against my and Jordan Lefkowitz's pokerbot! Start at https://github.com/PROA200/pokerbots-ui.
+Play against my and Jordan Lefkowitz's pokerbot! Start at [https://github.com/PROA200/pokerbots-ui](https://github.com/PROA200/pokerbots-ui).
